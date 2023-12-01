@@ -1,0 +1,19 @@
+body {
+  color: #2d2d2d;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.obj-fit {
+  height: 100%;
+  object-fit: cover;
+}
