@@ -373,7 +373,7 @@
       <div class="row align-items-end">
         <div class="col-lg-6 d-none d-lg-block">
           <div class="position-relative z-1">
-            <img src="@/assets/img/立委2.svg" alt="" />
+            <img src="@/assets/img/立委2.svg" alt="喵立翰立委人像" />
           </div>
         </div>
         <!-- form -->
