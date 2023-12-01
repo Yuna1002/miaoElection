@@ -11,21 +11,33 @@
     class="mobileNav d-flex flex-lg-row align-items-center flex-column pt-20 pt-lg-0"
     :class="{ openNav: isNavOpen }"
   >
-    <li class="fw-medium me-8 mb-4 mb-lg-0"><a href="#activity" class="nav-link">最新活動</a></li>
-    <li class="fw-medium me-8 mb-4 mb-lg-0"><a href="#policy" class="nav-link">政策議題</a></li>
-    <li class="fw-medium me-8 d-lg-none"><a href="#donate" class="nav-link">小額捐款</a></li>
+    <li class="fw-medium me-8 mb-4 mb-lg-0">
+      <RouterLink to="#activity" class="nav-link">最新活動</RouterLink>
+    </li>
+    <li class="fw-medium me-8 mb-4 mb-lg-0">
+      <RouterLink to="#policy" class="nav-link">政策議題</RouterLink>
+    </li>
+    <li class="fw-medium me-8 d-lg-none">
+      <RouterLink to="#donate" class="nav-link">小額捐款</RouterLink>
+    </li>
     <li class="d-none d-lg-block">
-      <a type="button" class="btn btn-primary rounded-pill py-4 px-9" href="#donate"> 小額捐款 </a>
+      <RouterLink type="button" class="btn btn-primary rounded-pill py-4 px-9" to="#donate">
+        小額捐款
+      </RouterLink>
     </li>
   </ul>
 </template>
 
 <script>
+import { RouterLink } from 'vue-router'
 export default {
   data() {
     return {
       isNavOpen: false
     }
+  },
+  components: {
+    RouterLink
   },
   methods: {
     toggleNav() {
