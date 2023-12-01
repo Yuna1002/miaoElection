@@ -1,6 +1,6 @@
 <template>
   <!-- 遮罩 -->
-  <!-- <div class="backdrop" :class="{ 'open-backdrop': isNavOpen }"></div> -->
+  <div class="backdrop" :class="{ 'open-backdrop': isNavOpen }"></div>
   <!-- 漢堡選單 -->
   <a href="#" class="btnNav d-lg-none" @click.prevent="toggleNav" :class="{ open: isNavOpen }">
     <div class="btnLine mb-1"></div>
