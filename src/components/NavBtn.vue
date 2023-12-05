@@ -1,12 +1,13 @@
 <template>
   <!-- 遮罩 -->
-  <div class="backdrop" :class="{ 'open-backdrop': isNavOpen }"></div>
+  <div class="backdrop d-lg-none" :class="{ 'open-backdrop': isNavOpen }"></div>
   <!-- 漢堡選單 -->
   <a href="#" class="btnNav d-lg-none" @click.prevent="toggleNav" :class="{ open: isNavOpen }">
     <div class="btnLine mb-1"></div>
     <div class="btnLine mb-1"></div>
     <div class="btnLine"></div>
   </a>
+
   <ul
     class="mobileNav d-flex flex-lg-row align-items-center flex-column pt-20 pt-lg-0"
     :class="{ openNav: isNavOpen }"
@@ -100,7 +101,7 @@ export default {
 .backdrop {
   position: fixed;
   top: 0;
-  left: 0;
+  right: -100%;
   z-index: -1;
   width: 100vw;
   height: 100vh;
@@ -114,6 +115,7 @@ export default {
 }
 .open-backdrop {
   z-index: 1;
+  right: 0;
   opacity: 0.5;
 }
 //三條線動畫
