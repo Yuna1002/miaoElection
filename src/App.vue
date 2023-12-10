@@ -10,9 +10,15 @@
           class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-xl-20"
         >
           <div>
-            <p class="fs-12 fs-lg-22 fw-bold mb-4 mb-lg-9">從喵的眼中</p>
-            <p class="fs-12 fs-lg-22 fw-bold mb-4 mb-lg-9 text-end">看見台灣</p>
-            <div class="d-flex">
+            <p class="fs-12 fs-lg-22 fw-bold mb-4 mb-lg-9" data-aos="fade-right">從喵的眼中</p>
+            <p
+              class="fs-12 fs-lg-22 fw-bold mb-4 mb-lg-9 text-end"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
+              看見台灣
+            </p>
+            <div class="d-flex" data-aos="fade-right" data-aos-duration="3000">
               <span
                 class="px-15 me-6 position-relative"
                 style="border-top: 3px solid black; top: 24px"
@@ -82,6 +88,8 @@
 import { RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
 import { debounce } from 'lodash'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 export default {
   data() {
     return {
@@ -114,6 +122,7 @@ export default {
   },
   mounted() {
     window.addEventListener('scroll', debounce(this.handleScroll, 200))
+    AOS.init()
   }
 }
 </script>

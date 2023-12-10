@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row justify-content-center justify-content-lg-between">
         <div class="d-none d-lg-block col-lg-6 position-relative">
-          <div>
+          <div data-aos="fade-up">
             <img src="@/assets/img/img2-1.jpg" alt="喵立漢" />
           </div>
           <img
@@ -12,6 +12,7 @@
             alt="貓咪友善"
             class="position-absolute sec2-img"
             style="top: 120px; left: 170px; z-index: -1"
+            data-aos="fade-up"
           />
         </div>
         <div class="col-10 col-lg-4 text-center">
@@ -54,7 +55,7 @@
           <ActivitySwiper class="d-lg-none"></ActivitySwiper>
           <ul class="border position-relative d-none d-lg-block">
             <div class="time-line bg-primary position-absolute"></div>
-            <li class="d-flex align-items-center py-9 mb-5">
+            <li class="d-flex align-items-center py-9 mb-5" data-aos="fade-up">
               <div
                 class="rounded-circle bg-primary h2 py-10 px-2 border border-secondary border-5 text-white me-8"
               >
@@ -79,7 +80,7 @@
                 </div>
               </div>
             </li>
-            <li class="d-flex align-items-center py-9 mb-5">
+            <li class="d-flex align-items-center py-9 mb-5" data-aos="fade-up">
               <div
                 class="rounded-circle bg-primary h2 py-10 px-2 border border-secondary border-5 text-white me-8"
               >
@@ -103,7 +104,7 @@
                 </div>
               </div>
             </li>
-            <li class="d-flex align-items-center py-9 mb-5">
+            <li class="d-flex align-items-center py-9 mb-5" data-aos="fade-up">
               <div
                 class="rounded-circle bg-primary h2 py-10 px-2 border border-secondary border-5 text-white me-8"
               >
@@ -147,10 +148,13 @@
         </h2>
       </div>
       <div class="row g-0 justify-content-xxl-center mb-30">
-        <div class="col-lg-7 col-xxl-6">
+        <div class="col-lg-7 col-xxl-6" data-aos="fade-right">
           <img src="@/assets/img/img4-1.jpg" alt="醫療保障" />
         </div>
-        <div class="col-lg-7 col-xxl-6 bg-light position-relative policy-right">
+        <div
+          class="col-lg-7 col-xxl-6 bg-light position-relative policy-right"
+          data-aos="fade-left"
+        >
           <div class="d-flex justify-content-lg-end pb-9">
             <div class="px-9 pt-6 ps-lg-12 ps-xl-18 pt-lg-12">
               <span class="h3-upline bg-primary mb-2"></span>
@@ -170,7 +174,7 @@
         </div>
       </div>
       <div class="row flex-column-reverse flex-lg-row g-0 justify-content-xxl-center mb-30">
-        <div class="col-lg-7 col-xxl-6 bg-light">
+        <div class="col-lg-7 col-xxl-6 bg-light" data-aos="fade-right">
           <div class="d-flex ps-9 pb-9 policy-sec2">
             <div class="pt-6 pt-lg-12">
               <span class="h3-upline bg-primary mb-2"></span>
@@ -193,15 +197,21 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-7 col-xxl-6 position-relative policy-right ps-0 z-1">
+        <div
+          class="col-lg-7 col-xxl-6 position-relative policy-right ps-0 z-1"
+          data-aos="fade-left"
+        >
           <img src="@/assets/img/img4-2.jpg" alt="醫療保障" class="obj-fit" />
         </div>
       </div>
       <div class="row g-0 justify-content-xxl-center mb-lg-10">
-        <div class="col-lg-7 col-xxl-6">
+        <div class="col-lg-7 col-xxl-6" data-aos="fade-right">
           <img src="@/assets/img/img4-3.jpg" alt="醫療保障" />
         </div>
-        <div class="col-lg-7 col-xxl-6 bg-light position-relative policy-right">
+        <div
+          class="col-lg-7 col-xxl-6 bg-light position-relative policy-right"
+          data-aos="fade-left"
+        >
           <div class="d-flex justify-content-end pb-9">
             <div class="px-9 ps-lg-12 ps-xl-18 pt-9 pt-lg-12">
               <span class="h3-upline bg-primary mb-2"></span>
@@ -377,7 +387,7 @@
           </div>
         </div>
         <!-- form -->
-        <div class="col-lg-7 position-relative form-position">
+        <div class="col-lg-7 position-relative form-position" data-aos="fade-up">
           <div class="bg-primary rounded-5 py-30 px-10 px-lg-20">
             <div class="text-center">
               <h2 class="d-inline-block position-relative text-white fw-bold mb-20">
@@ -390,7 +400,7 @@
                 </span>
               </h2>
             </div>
-            <form c>
+            <form>
               <div class="mb-8 px-8 text-white">
                 <label for="name" class="form-label mb-1"
                   ><span class="bg-danger rounded-pill fs-3 px-2 me-1">必填</span>姓名</label
