@@ -22,7 +22,7 @@
       <RouterLink to="#donate" class="nav-link">小額捐款</RouterLink>
     </li>
     <li class="d-none d-lg-block">
-      <RouterLink type="button" class="btn btn-primary rounded-pill py-4 px-9" to="#donate">
+      <RouterLink class="btn btn-primary rounded-pill py-4 px-9" to="#donate">
         小額捐款
       </RouterLink>
     </li>
