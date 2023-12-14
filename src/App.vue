@@ -7,7 +7,7 @@
     <div class="container pt-20 pt-xl-10">
       <div class="row">
         <div
-          class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-xl-20"
+          class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-xl-20 ipad"
         >
           <div>
             <p class="fs-12 fs-lg-22 fw-bold mb-4 mb-lg-9" data-aos="fade-right">從喵的眼中</p>
@@ -165,5 +165,10 @@ export default {
 }
 .hidden {
   transform: translateY(-100%);
+}
+.ipad {
+  @media (min-width: 501px) and (max-width: 830px) {
+    padding-top: 80px;
+  }
 }
 </style>
