@@ -134,7 +134,7 @@
     </div>
   </section>
   <!-- 政策議題 -->
-  <section id="policy" class="py-30">
+  <section id="policy" class="py-30 overflow-hidden">
     <div class="container">
       <div class="text-center">
         <h2 class="d-inline-block position-relative text-primary fw-bold mb-20">

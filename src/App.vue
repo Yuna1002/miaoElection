@@ -59,7 +59,7 @@
   <footer>
     <section class="bg-secondary_dark d-flex flex-column align-items-center py-10">
       <h2 class="text-white mb-4">喵立翰競選辦公室</h2>
-      <ul class="text-white d-flex mb-8 fs-5">
+      <ul class="text-white d-flex mb-8 fs-4 fs-lg-5">
         <li class="border-end py-sm px-7">首頁</li>
         <li class="border-end py-sm px-7">最新活動</li>
         <li class="border-end py-sm px-7">政策議題</li>
